@@ -52,7 +52,7 @@ int main()
         {
             for ( j = 0; j < n; j++)
             {
-                if (A[i][k] && A[k][j]==0)
+                if (A[i][k] && A[k][j] || A[i][j])
                     B[i][j] = 1;
             }
         }
